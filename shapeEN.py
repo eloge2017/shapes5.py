@@ -1,10 +1,15 @@
 from graphics import *
-rTriWin = GraphWin ("Red Triangle", 300, 300)
-rTriWin.setCoords (0,0,300,300)
+shapesWin = GraphWin ("shapes", 500, 500)
+shapesWin.setCoords ( 0,0,500,500)
 
-rTri = Polygon (Point (100, 100), Point (150,200), Point (200, 100))
-rTri.setFill (color_rgb(30,30,230))
-rTri.draw(rTriWin)
+rTri = Polygon (Point (25, 25), Point (75,125), Point (125, 25))
+rTri.setFill (color_rgb(225,0,0))
+rTri.draw(shapesWin)
 
-rTriWin.getMouse ()
-rTriWin.close()
+gOval = Oval (Point (490, 490), Point(450,375))
+gOval.setFill (color_rgb(0,225,0))
+gOval.draw(shapesWin)
+
+shapesWin.getMouse ()
+shapesWin.close()
+
