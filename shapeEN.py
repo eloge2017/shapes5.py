@@ -15,6 +15,10 @@ bCir = Circle (Point(75,440), 50)
 bCir.setFill(color_rgb(0,0,225))
 bCir.draw(shapesWin)
 
+pSq = Rectangle (Point(490, 10), Point(435,60))
+pSq.setFill(color_rgb(255,0,255))
+pSq.draw(shapesWin)
+
 shapesWin.getMouse ()
 shapesWin.close()
 
