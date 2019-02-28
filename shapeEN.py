@@ -19,6 +19,10 @@ pSq = Rectangle (Point(490, 10), Point(435,60))
 pSq.setFill(color_rgb(255,0,255))
 pSq.draw(shapesWin)
 
+bDia = Polygon (Point(200,250), Point(250,300), Point(275,250), Point(250,200))
+bDia.setFill(color_rgb(0,0,225))
+bDia.draw(shapesWin)
+
 shapesWin.getMouse ()
 shapesWin.close()
 
